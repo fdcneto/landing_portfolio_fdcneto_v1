@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Landing Page - Portfólolio (V1)
 
 Versão inicial do portfólio para publicação. Estilo: *azul com toque artístico e suave*.
@@ -27,3 +28,7 @@ Versão inicial do portfólio para publicação. Estilo: *azul com toque artíst
 ---
 
 Deseja que eu compacte esses arquivos para download aqui (zip) ou quer que eu já faça alguma modificação (cores, textos, rodapé, dark mode)?
+=======
+# landing_portfolio_fdcneto_v1
+Landing page vitrine do portifólio
+>>>>>>> dd2fa1e3de04914ee679aabd4aeb756f4525f5bb
