@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Francisco Neto — Desenvolvedor Web Freelancer</title>
+  <meta name="description" content="Portfólio de Francisco Neto — projetos práticos, serviços e contato para contratação como desenvolvedor web freelancer.">
+  <link rel="canonical" href="https://seu-dominio.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Francisco Neto — Desenvolvedor Web" />
+  <meta property="og:description" content="Portfólio de projetos e serviços. Solicite um orçamento." />
+  <meta property="og:type" content="website" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Preload logo and main styles -->
+  <link rel="preload" href="assets/logo.png" as="image">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <!-- Texto como identidade DEV -->
+        <a href="#home" class="logo">fdcneto.dev</a>
+      </div>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#projetos">Projetos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="#contato" class="btn btn-cta">Solicitar orçamento</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- HERO / Carrossel -->
+    <section class="hero container" aria-label="Projetos em destaque">
+      <div class="hero-left">
+        <h1>Construo experiências web rápidas e elegantes.</h1>
+        <p class="lead">Freelancer — Front-end &amp; Full‑stack. Transformo ideias em sites e apps otimizados.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#projetos">Ver meus projetos</a>
+          <a class="btn btn-outline" href="#contato">Falar comigo</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="carousel" id="carousel" aria-roledescription="carousel">
+          <button class="carousel-arrow carousel-prev" aria-label="Anterior">&#10094;</button>
+
+          <div class="carousel-track" id="carousel-track">
+            <!-- Slides (exemplos) -->
+            <article class="carousel-slide" data-index="0">
+              <img src="assets/project-1-800.jpg" srcset="assets/project-1-400.jpg 400w, assets/project-1-800.jpg 800w" alt="Projeto 1 - Dashboard" loading="eager">
+              <div class="slide-info">
+                <h3>Dashboard Financeiro</h3>
+                <p>SPA com gráficos e integração API.</p>
+                <div class="slide-actions">
+                  <a class="btn" href="#" target="_blank" rel="noopener">Ver Demo</a>
+                  <a class="btn" href="https://github.com/fdcneto/tavares_web_page.git" target="_blank" rel="noopener">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="carousel-slide" data-index="1">
+              <img src="assets/project-2-800.jpg" srcset="assets/project-2-400.jpg 400w, assets/project-2-800.jpg 800w" alt="Projeto 2 - Loja" loading="lazy">
+              <div class="slide-info">
+                <h3>E‑commerce Minimal</h3>
+                <p>Loja responsiva com checkout integrado.</p>
+                <div class="slide-actions">
+                  <a class="btn" href="#" target="_blank" rel="noopener">Ver Demo</a>
+                  <a class="btn" href="https://github.com/fdcneto/fdcneto_start_page.git" target="_blank" rel="noopener">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="carousel-slide" data-index="2">
+              <img src="assets/project-3-800.jpg" srcset="assets/project-3-400.jpg 400w, assets/project-3-800.jpg 800w" alt="Projeto 3 - Blog" loading="lazy">
+              <div class="slide-info">
+                <h3>Página inicial personalizada</h3>
+                <p>Página inicial personalizada com links e atalhos.</p>
+                <div class="slide-actions">
+                  <a class="btn" href="https://fdcneto-start-page.vercel.app/" target="_blank" rel="noopener">Ver Demo</a>
+                  <a class="btn" href="https://github.com/fdcneto/fdcneto_start_page.git" target="_blank" rel="noopener">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <button class="carousel-arrow carousel-next" aria-label="Próximo">&#10095;</button>
+
+          <!-- Thumbs -->
+          <div class="carousel-thumbs" id="carousel-thumbs" role="tablist" aria-label="Selecione um projeto">
+            <button class="thumb active" data-index="0" aria-selected="true" aria-controls="slide-0"><img src="assets/thumb-1.jpg" alt="Thumb Projeto 1"></button>
+            <button class="thumb" data-index="1" aria-selected="false" aria-controls="slide-1"><img src="assets/thumb-2.jpg" alt="Thumb Projeto 2"></button>
+            <button class="thumb" data-index="2" aria-selected="false" aria-controls="slide-2"><img src="assets/thumb-3.jpg" alt="Thumb Projeto 3"></button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos em grid -->
+    <section id="projetos" class="container section">
+      <h2>Projetos</h2>
+      <p class="muted">Exemplos práticos &amp; código aberto no GitHub.</p>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Cards de projeto (substituir) -->
+        <article class="project-card">
+          <img src="assets/project-1-400.jpg" alt="Projeto 1" loading="lazy">
+          <div class="card-body">
+            <h3>Tavares Web Page</h3>
+            <p>Website de advocacia, informações institucionais e contato.</p>
+            <div class="card-footer">
+              <a href="#" class="link">Demo</a>
+              <a href="https://github.com/fdcneto/tavares_web_page.git" class="link" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/project-2-400.jpg" alt="Projeto 2" loading="lazy">
+          <div class="card-body">
+            <h3>Start Page</h3>
+            <p>Página inicial personalizada com links e atalhos.</p>
+            <div class="card-footer">
+              <a href="https://fdcneto-start-page.vercel.app/" class="link" target="_blank" rel="noopener">Demo</a>
+              <a href="https://github.com/fdcneto/fdcneto_start_page.git" class="link" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/project-3-400.jpg" alt="Projeto 3" loading="lazy">
+          <div class="card-body">
+            <h3>Página inicial personalizada</h3>
+            <p>Versão hospedada do Start Page como exemplo.</p>
+            <div class="card-footer">
+              <a href="https://fdcneto-start-page.vercel.app/" class="link" target="_blank" rel="noopener">Demo</a>
+              <a href="https://github.com/fdcneto/fdcneto_start_page.git" class="link" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="container section">
+      <h2>Serviços</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Desenvolvimento Front‑end</h3>
+          <p>Sites responsivos, acessíveis e rápidos.</p>
+        </div>
+        <div class="service-card">
+          <h3>Aplicações Web</h3>
+          <p>APIs, integrações e SPAs.</p>
+        </div>
+        <div class="service-card">
+          <h3>Consultoria &amp; Manutenção</h3>
+          <p>Performance, SEO e arquitetura.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills / Habilidades -->
+    <section id="sobre" class="container section">
+      <h2>Sobre / Habilidades</h2>
+      <p>Sou desenvolvedor web com foco em aplicações escaláveis e experiência em front‑end e back‑end.</p>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3 / Flexbox / Grid</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React / Node.js</li>
+        <li>MySQL / PostgreSQL</li>
+      </ul>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="container section newsletter">
+      <h2>Newsletter</h2>
+      <p class="muted">Receba novidades sobre novos projetos e artigos.</p>
+      <form id="newsletter-form" class="form-inline" action="https://formspree.io/f/SEU_FORM_ID" method="POST">
+        <label for="newsletter-email" class="sr-only">Seu e-mail</label>
+        <input id="newsletter-email" name="email" type="email" placeholder="Seu melhor e-mail" required>
+        <button class="btn" type="submit">Inscrever</button>
+      </form>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="container section contact-section">
+      <h2>Contato</h2>
+      <p class="muted">Vamos conversar sobre seu projeto.</p>
+
+      <div class="contact-grid">
+        <form id="contact-form" action="https://formspree.io/f/SEU_FORM_ID" method="POST" novalidate>
+          <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+          <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
+          <input type="tel" name="telefone" id="telefone" placeholder="Telefone (opcional)">
+          <textarea name="mensagem" id="mensagem" rows="6" placeholder="Descreva a solução ou projeto desejado" required></textarea>
+
+          <!-- honeypot anti-spam -->
+          <input type="text" name="website" style="display:none">
+
+          <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+          <div class="form-feedback" aria-live="polite"></div>
+        </form>
+
+        <aside class="contact-info">
+          <h3>Contato direto</h3>
+          <p>WhatsApp, LinkedIn e GitHub abaixo.</p>
+          <div class="socials">
+            <a class="social whatsapp" href="https://wa.me/5591999999999?text=Olá" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+            <a class="social linkedin" href="https://www.linkedin.com/in/seu-perfil" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+            <a class="social github" href="https://github.com/seu-usuario" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Francisco Neto — fdcneto.dev</div>
+      <nav class="footer-nav">
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
